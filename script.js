@@ -14,8 +14,8 @@ function checkAnswer() {
     }
 }
 
-function confusingClick() {
-    alert('Oops, this button does nothing. Try answering the riddle!');
+function confusingClick(message) {
+    alert(message);
 }
 
 function runConfetti() {
